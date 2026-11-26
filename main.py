@@ -4,8 +4,8 @@ import dht
 from machine import Pin
 from umqtt.simple import MQTTClient
 
-SSID = "YOUR_SSID"
-PASSWORD = "YOUR_PASSWORD"
+SSID = ""
+PASSWORD = ""
 
 BROKERS = ["broker.hivemq.com", "test.mosquitto.org"]
 PORT = 1883
